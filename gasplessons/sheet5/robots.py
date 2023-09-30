@@ -3,7 +3,6 @@ from random import randint
 
 class Player:
     pass
-
 class Robot:
     pass
 
