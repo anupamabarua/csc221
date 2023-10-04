@@ -1,4 +1,4 @@
-from gasp import *          # So that you can draw things
+from gasp import *       
 from random import randint
 
 def place_player():
@@ -11,7 +11,7 @@ def move_player():
     print("I'm moving...")
     update_when('key_pressed')
 
-begin_graphics()            # Create a graphics window
+begin_graphics()         
 finished = False
 
 place_player()

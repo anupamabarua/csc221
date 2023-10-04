@@ -1,18 +1,12 @@
 from gasp import *
-from random import randint
 
 def place_player():
-    player_x = randint(0,65)
-    player_y = randint(0,30)
-    print("Here I am!")
-    Circle((10 * player_x + 5, 10 * player_y + 5), 5, filled=True)
+    print("Here I am")
 
 def move_player():
-    print("I'm moving...")
+    print("Im moving...")
     update_when('key_pressed')
 
-
-# graphic window
 
 begin_graphics()
 finished = False
@@ -22,4 +16,5 @@ place_player()
 while not finished:
     move_player()
 
-end_graphics()
+
+end_graphics
