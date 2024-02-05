@@ -40,3 +40,33 @@ while True:
 	print(data.decode(),end='')
 mysock.close()
 ``` 
+- create socket in your computer
+- socket.scoet makes the phone
+- mysock.connect dials the phone
+- Browser developer mode is how you debug the code
+
+## Building a Simple HTTP Server in Python
+
+- The server already exists it sits and waits for it to be talked to
+- listen(5) means that the OS will hold up to 4 other requests if it currently is working on one
+- The recive and the send is the same function
+- The server recives it as utf-8 and needs to decode it into unicode
+- To send data it has to be utf-8
+- As soon as the server sends the data it shutdowns the socket.(hangs up the phone)
+- The server is an infinate loop
+- The server is destined to wait until a client connects to it
+
+## Understanding Browser Developer Mode
+
+- It grabs all the links, CSS, fonts and javascript and builds up the amount of request and the time it takes to get them
+
+## the HTTP request/response cycle
+
+When the server receives that request, it uses the information included in the request to build a response that contains the requested information.
+
+## what a socket is
+- a way of connecting two nodes on a network to communicate with each other.
+
+## most common tcp port numbers 
+- http - 80
+
